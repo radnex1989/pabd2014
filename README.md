@@ -1,4 +1,6 @@
 Changing readme
+TEST 12.03.2014 18:54 KELA 
+Sin dolor sic amet etc
 
 
 Symfony Standard Edition

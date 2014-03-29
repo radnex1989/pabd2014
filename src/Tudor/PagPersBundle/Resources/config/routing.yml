@@ -1,0 +1,3 @@
+tudor_pag_pers_homepage:
+    pattern:  /pag_pers/{name}
+    defaults: { _controller: TudorPagPersBundle:Default:index }

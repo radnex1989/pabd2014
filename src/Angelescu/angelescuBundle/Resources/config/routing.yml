@@ -1,0 +1,3 @@
+angelescuangelescu_homepage:
+    pattern:  /angelescu/{name}
+    defaults: { _controller: AngelescuangelescuBundle:Default:index }

@@ -1,3 +1,7 @@
+angelescuangelescu:
+    resource: "@AngelescuangelescuBundle/Resources/config/routing.yml"
+    prefix:   /
+
 tudor_pag_pers:
     resource: "@TudorPagPersBundle/Resources/config/routing.yml"
     prefix:   /

@@ -1,0 +1,7 @@
+parameters:
+#    a_ciungan_blog.example.class: ACiungan\BlogBundle\Example
+
+services:
+#    a_ciungan_blog.example:
+#        class: %a_ciungan_blog.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

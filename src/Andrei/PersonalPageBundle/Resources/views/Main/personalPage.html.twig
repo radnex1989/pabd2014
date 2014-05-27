@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Irimie Andrei personal page</title>
+	<link href="{{ asset('bundles/andreipersonalpage/css/style.css') }}" rel="stylesheet" />
+	<link href="{{ asset('bundles/andreipersonalpage/css/bootstrap.css') }}" type="text/css" rel="stylesheet" />
+
+</head>
+<body>
+
+
+
+
+<div class="modalHome modal fade">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        <p>One fine body&hellip;</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+	<div id="header">
+		<div>
+			<div class="logo">
+				
+			</div>
+			<ul id="navigation">
+				<li class="active">
+					<a class="tooltips" data-toggle="tooltip" data-placement="top" title="Tooltip home" href="{{ path('andrei_personal_page_homepage', {'name': name}) }}">HOME</a>
+				</li>
+				<li>
+					<a class="tooltips" data-toggle="tooltip" data-placement="top" title="Tooltip contact" href="{{ path('andrei_personal_page_contact', {'name': name}) }}">CONTACT</a>
+				</li>
+				<li>
+					<a class="tooltips" data-toggle="tooltip" data-placement="top" title="Tooltip news" href="{{ path('andrei_personal_page_news', {'name': name}) }}">NEWS</a>
+				</li>
+				
+			</ul>
+		</div>
+	</div>
+	<div id="adbox">
+		<div class="clearfix">
+			<img src="{{ asset('bundles/andreipersonalpage/images/andrei.jpg') }}" width="350" height="250">
+
+			<div>
+				<h1>New user ?</h1>
+				<h2>Thanks for stopping by!</h2>
+				<p>
+					My name is Irimie Andrei, and I am glad that you are here!
+				</p>
+			</div>
+		</div>
+	</div>
+	<div id="contents">
+		<div id="tagline" class="clearfix">
+			<h1>Personal page Irimie Andrei</h1>
+			<div>
+				<p>
+					This is my personal page !
+				</p>
+				<p>
+					I love this page very much !
+				</p>
+				<p>
+					Here I will post news about me !
+				</p>
+			</div>
+			<div>
+				<p>
+					You are free to comment on this website !
+				</p>
+				<p>
+					I think that we will get along very well !
+				</p>
+				<p>
+					Hear you soon, bye !
+				</p>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div class="clearfix">
+			
+			<p>
+				&copy; 2023 Irimie Andrei. All Rights Reserved.
+			</p>
+		</div>
+	</div>
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="{{ asset('bundles/andreipersonalpage/js/bootstrap.min.js') }}" /></script>
+
+	<script>
+	$('.tooltips').tooltip();
+	
+	$(document).ready(function(){
+		$('.modalHome').modal('show');
+	});
+	</script>
+</body>
+</html>

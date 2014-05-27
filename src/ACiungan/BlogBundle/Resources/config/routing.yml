@@ -1,0 +1,31 @@
+a_ciungan_blog_homepage:
+    pattern:  /
+    defaults: { _controller: ACiunganBlogBundle:Page:index }
+    requirements:
+      _method: GET
+
+a_ciungan_blog_about:
+    pattern:  /about
+    defaults: { _controller: ACiunganBlogBundle:Page:about }
+    requirements:
+      _method: GET
+
+a_ciungan_blog_newentry:
+    pattern:  /newentry
+    defaults: { _controller: ACiunganBlogBundle:Page:newentry }
+    requirements:
+      _method: GET|POST
+
+a_ciungan_blog_blog_show:
+    pattern:  /{id}
+    defaults: { _controller: ACiunganBlogBundle:Blog:show }
+    requirements:
+        _method:  GET
+        id: \d+
+
+a_ciungan_blog_comment_create:
+    pattern:  /comment/{blog_id}
+    defaults: { _controller: ACiunganBlogBundle:Comment:create }
+    requirements:
+       _method:  POST
+       blog_id: \d+

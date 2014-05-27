@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 Changing readme
 TEST 12.03.2014 18:54 KELA 
 Sin dolor sic amet etc
@@ -43,3 +44,6 @@ http://gitref.org/ (git) http://symfony.com/doc/current/index.html (symfony)
 - activitate git (completare wiki, comentarii etc)
 
 Obs. Studentii care nu pot participa fizic la 1/2 din laboratoare pot compensa prin implicarea pe activitatile complexe.
+=======
+Sonia
+>>>>>>> bf1cc1924f4c672d356095e79964ff5410d1bfd6

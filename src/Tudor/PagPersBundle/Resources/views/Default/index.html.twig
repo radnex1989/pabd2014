@@ -1,0 +1,52 @@
+{% if name|lower == "tudor" %}
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Welcome to my page</title>
+<link href="{{ asset('bundles/tudorpagpers/css/style.css') }}" rel="stylesheet" />
+</head>
+
+<body>
+<table width="600" border="0" align="center" style="color:#FFFFFF">
+  <tr>
+  	<td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><h1 align="center">Welcome!</h1></td>
+  </tr>
+  <tr>
+    <td><h2 align="center">This is my homepage, hope You like it.</h2></td>
+  </tr>
+  <tr>
+    <td><p align="justify">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Let me tell You a little bit of myself: My name is <b><i>{{ name }}</i></b>, and I'm a 24 years old programmer from Alba-Iulia, Roumania. Nice country, nicer city. Although the city is relatively small, it's history is quite important for this country. Did you know that the Great National Assembly Resolution from 1st of December 1918 took place in Alba-Iulia? Not surprisingly, 1st of December 1918 is celebrated as the National Day in Roumania. But that is enough about Alba-Iulia, if You want to find out more please fell free to Google my country and city.
+		</p>
+		
+		<p align="justify">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Now, let's get down to important things. Like education. I always like'd computers, so it was obvious I would follow this pasion through school. I studied Computer Science in college and university, and this year I am getting my Master's degree from the same university. Don't really know if I'm going to take my PhD, but I still have time to think about it. Anyway, here's a quick chronological order of my education:
+			<ul>
+				<li>Primary and Middle school Barabant</li>
+				<li>"Apulum" Technical College</li>
+				<li>"1 Decembrie 1918" University - Bs in Computer Science</li>
+				<li>"1 Decembrie 1918" University - Ms in Computer Science</li>
+			</ul>
+		</p>
+		
+		<p align="justify">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;So we have the intro and education covered preaty much up, let's talk about hobbys. There are two main areas of interest for me: <b>technology</b> and <b>sports</b>. By technology I mean everything that has to do with computers, especially programming. I'm a Java programmer, but don't mind working with other languages. I pay extra atention to fields like Artificial Intelligence, Data Mining and Big Data. Now sports: muay thay, kickboxing, MMA, UFC and so on. This is just a small list of keywords that define sports for me, because I love contact sports. But this doesn't mean I hate other ones, for example I have some years of experience with heavy weigth lifting (mainly powerlifting), it means I just prefer watching a fight or sparring with someone, even if that someone is my kickboxing bag.
+		</p>
+		<p align="justify">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You can't describe someone with just a few words, but this page kind of lets you make an ideea about me. So to sum things up, this is my homepage. More to come. Have a nice day.
+		</p>
+	</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>
+
+{% endif %}

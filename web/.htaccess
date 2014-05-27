@@ -1,14 +1,19 @@
+<<<<<<< HEAD
 # Use the front controller as index file. It serves as a fallback solution when
 # every other rewrite/redirect fails (e.g. in an aliased environment without
 # mod_rewrite). Additionally, this reduces the matching process for the
 # start page (path "/") because otherwise Apache will apply the rewriting rules
 # to each configured DirectoryIndex file (e.g. index.php, index.html, index.pl).
 DirectoryIndex app_dev.php
+=======
+
+>>>>>>> bf1cc1924f4c672d356095e79964ff5410d1bfd6
 
 <IfModule mod_rewrite.c>
     RewriteEngine On
     
     # Rewrite all other queries to the front controller.
+<<<<<<< HEAD
     RewriteRule .? %{ENV:BASE}/app_dev.php [L]
 </IfModule>
 
@@ -17,14 +22,19 @@ DirectoryIndex app_dev.php
         RedirectMatch 302 ^/$ /app_dev.php/
         # RedirectTemp cannot be used instead
     </IfModule>
+=======
+>>>>>>> bf1cc1924f4c672d356095e79964ff5410d1bfd6
 </IfModule>
 
 <IfModule !mod_rewrite.c>
     <IfModule mod_alias.c>
+<<<<<<< HEAD
         # When mod_rewrite is not available, we instruct a temporary redirect of
         # the start page to the front controller explicitly so that the website
         # and the generated links can still be used.
         RedirectMatch 302 ^/$ /app_dev.php/
+=======
+>>>>>>> bf1cc1924f4c672d356095e79964ff5410d1bfd6
         # RedirectTemp cannot be used instead
     </IfModule>
 </IfModule>

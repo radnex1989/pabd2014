@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>News page Irimie Andrei</title>
+	<link href="{{ asset('bundles/andreipersonalpage/css/style.css') }}" rel="stylesheet" />
+</head>
+<body>
+	<div id="header">
+		<div>
+			<div class="logo">
+				
+			</div>
+			<ul id="navigation">
+				<li>
+					<a href="{{ path('andrei_personal_page_homepage', {'name': name}) }}">HOME</a>
+				</li>
+				<li class="active">
+					<a href="{{ path('andrei_personal_page_news', {'name': name}) }}">NEWS</a>
+				</li>
+				<li>
+					<a href="{{ path('andrei_personal_page_contact', {'name': name}) }}">CONTACT</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div id="contents">
+		Nothing new yet! Stay in touch!
+	</div>
+	<div id="footer">
+		<div class="clearfix">
+			
+			<p>
+				&copy; 2023 Irimie Andrei. All Rights Reserved.
+			</p>
+		</div>
+	</div>
+</body>
+</html>

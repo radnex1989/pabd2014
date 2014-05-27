@@ -1,0 +1,21 @@
+{% extends 'ACiunganBlogBundle::layout.html.twig' %}
+
+{% block title %}About{% endblock%}
+
+{% block body %}
+    <header>
+        <h1>Adauga un nou articol</h1>
+    </header>
+    <form action="{{ path('a_ciungan_blog_newentry') }}" method="post" {{ form_enctype(form) }} class="blogger">
+        {{ form_errors(form) }}
+
+        {{ form_row(form.title) }}
+        {{ form_row(form.body) }}
+        {{ form_row(form.author) }}
+        {{ form_row(form.tags) }}
+
+        {{ form_rest(form) }}
+
+        <input type="submit" value="Posteaza" />
+    </form>
+{% endblock %}

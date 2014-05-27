@@ -1,0 +1,12 @@
+body
+{	
+	background: url('../images/fundal.jpg');
+	
+}
+
+.imgToto{
+	width: 500px;
+	height: 400px;
+	background: url('../images/beagle.jpg');
+	background-size: 500px 400px;
+}

@@ -1,14 +1,12 @@
-DirectoryIndex app_dev.php
+
 
 <IfModule mod_rewrite.c>
     RewriteEngine On
     # Rewrite all other queries to the front controller.
-    RewriteRule .? %{ENV:BASE}/app_dev.php [L]
 </IfModule>
 
 <IfModule !mod_rewrite.c>
     <IfModule mod_alias.c>
-        RedirectMatch 302 ^/$ /app_dev.php/
         # RedirectTemp cannot be used instead
     </IfModule>
 </IfModule>

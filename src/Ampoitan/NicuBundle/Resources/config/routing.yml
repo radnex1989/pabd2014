@@ -1,0 +1,9 @@
+ampoitan_nicu_homepage:
+    pattern:  /pag-pers/{name}
+    defaults: { _controller: AmpoitanNicuBundle:Default:index }
+ampoitan_nicu_news:
+    pattern:  /news/{name}
+    defaults: { _controller: AmpoitanNicuBundle:Default:news }
+ampoitan_nicu_contact:
+    pattern:  /contact/{name}
+    defaults: { _controller: AmpoitanNicuBundle:Default:contact }

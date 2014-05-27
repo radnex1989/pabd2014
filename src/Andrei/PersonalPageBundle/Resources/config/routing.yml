@@ -1,0 +1,9 @@
+andrei_personal_page_homepage:
+    pattern:  /personalpage/{name}
+    defaults: { _controller: AndreiPersonalPageBundle:Main:page }
+andrei_personal_page_contact:
+    pattern:  /contact/{name}
+    defaults: { _controller: AndreiPersonalPageBundle:Main:contact }
+andrei_personal_page_news:
+    pattern:  /news/{name}
+    defaults: { _controller: AndreiPersonalPageBundle:Main:news }	

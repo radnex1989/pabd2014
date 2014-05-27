@@ -1,0 +1,7 @@
+parameters:
+#    ampoitan_nicu.example.class: Ampoitan\NicuBundle\Example
+
+services:
+#    ampoitan_nicu.example:
+#        class: %ampoitan_nicu.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

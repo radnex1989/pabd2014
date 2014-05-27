@@ -1,0 +1,7 @@
+    Din câte am văzut eu, cifrurile, pe care trebuie să le dezvoltăm, sunt 
+bazate pe cripatare/decriptare fișiere. Din acest motiv aplicația web ar trebui 
+să lucreze pe fișiere astfel: utilizatorul uploadează un fișier, își alege 
+cifrul și dă un click pe unul dintre două butoane Criptează și Decriptează.
+Urmând ca la terminarea procesării fișierului să facă un download la fișierul
+rezultat în urma criptării/decriptării.
+

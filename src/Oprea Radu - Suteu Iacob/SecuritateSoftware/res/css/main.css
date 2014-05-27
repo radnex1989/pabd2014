@@ -1,0 +1,33 @@
+/* 
+    Document   : main
+    Created on : Jan 30, 2014, 4:11:29 PM
+    Author     : Șuteu Iacob
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: whitesmoke;
+    height: 100%;
+}
+
+.basicTable {
+    width: 100%;
+    color: aliceblue;
+    background-color: steelblue;
+}
+
+.dockTop {
+    vertical-align: top;
+}
+
+
+

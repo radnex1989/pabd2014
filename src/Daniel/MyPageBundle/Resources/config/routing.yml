@@ -1,0 +1,5 @@
+daniel_my_page_homepage:
+    pattern:  /daniel
+    defaults: { _controller: DanielMyPageBundle:Default:index }
+    requirements:
+            _method:  GET

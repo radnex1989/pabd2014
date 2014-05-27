@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed527675-ea90-433d-9f49-afcc9816528e" name="Default" comment="">
+    <list default="true" id="aec2e626-61f9-4554-9e65-7b8906f1fd69" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Angelescu/angelescuBundle/Resources/public/images/Capture.JPG" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Andrei/PersonalPageBundle/Resources/public/images/andrei.jpg" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Tudor/PagPersBundle/Resources/public/images/background0.jpg" />
@@ -17,12 +17,22 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Andrei/PersonalPageBundle/Resources/public/images/logo.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Andrei/PersonalPageBundle/Resources/public/images/recycle.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Sonia/PageBundle/Resources/public/images/toto.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ACiungan/BlogBundle/ACiunganBlogBundle.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ACiungan/BlogBundle/DependencyInjection/ACiunganBlogExtension.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Acme/HelloBundle/AcmeHelloBundle.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Acme/HelloBundle/DependencyInjection/AcmeHelloExtension.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Andrei/PersonalPageBundle/AndreiPersonalPageBundle.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Andrei/PersonalPageBundle/DependencyInjection/AndreiPersonalPageExtension.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Angelescu/angelescuBundle/AngelescuangelescuBundle.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Angelescu/angelescuBundle/DependencyInjection/AngelescuangelescuExtension.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ACiungan/BlogBundle/Entity/Blog.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ACiungan/BlogBundle/Controller/BlogController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ACiungan/BlogBundle/Entity/Repository/BlogRepository.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ACiungan/BlogBundle/Entity/Comment.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ACiungan/BlogBundle/Controller/CommentController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ACiungan/BlogBundle/Entity/Repository/CommentRepository.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ACiungan/BlogBundle/Form/CommentType.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ACiungan/BlogBundle/DependencyInjection/Configuration.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Acme/HelloBundle/DependencyInjection/Configuration.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Andrei/PersonalPageBundle/DependencyInjection/Configuration.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Angelescu/angelescuBundle/DependencyInjection/Configuration.php" />
@@ -33,46 +43,63 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Angelescu/angelescuBundle/Controller/DefaultController.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Sonia/PageBundle/Controller/DefaultController.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Tudor/PagPersBundle/Controller/DefaultController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ACiungan/BlogBundle/Tests/Controller/DefaultControllerTest.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Acme/HelloBundle/Tests/Controller/DefaultControllerTest.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Andrei/PersonalPageBundle/Tests/Controller/DefaultControllerTest.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Angelescu/angelescuBundle/Tests/Controller/DefaultControllerTest.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Sonia/PageBundle/Tests/Controller/DefaultControllerTest.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Tudor/PagPersBundle/Tests/Controller/DefaultControllerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ACiungan/BlogBundle/Entity/Enquiry.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ACiungan/BlogBundle/Form/EnquiryType.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Andrei/PersonalPageBundle/Controller/MainController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ACiungan/BlogBundle/Controller/PageController.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Sonia/PageBundle/SoniaPageBundle.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Sonia/PageBundle/DependencyInjection/SoniaPageExtension.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Tudor/PagPersBundle/TudorPagPersBundle.php" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Tudor/PagPersBundle/DependencyInjection/TudorPagPersExtension.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ACiungan/BlogBundle/Resources/views/Page/about.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/blog.css" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Andrei/PersonalPageBundle/Resources/public/css/bootstrap.css" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Andrei/PersonalPageBundle/Resources/public/js/bootstrap.min.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Andrei/PersonalPageBundle/Resources/views/Main/contact.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ACiungan/BlogBundle/Resources/views/Comment/create.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ACiungan/BlogBundle/Resources/views/Comment/form.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ACiungan/BlogBundle/Resources/views/Comment/index.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ACiungan/BlogBundle/Resources/views/Page/index.html.twig" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Acme/HelloBundle/Resources/views/Default/index.html.twig" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Andrei/PersonalPageBundle/Resources/views/Default/index.html.twig" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Angelescu/angelescuBundle/Resources/views/Default/index.html.twig" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Sonia/PageBundle/Resources/views/Default/index.html.twig" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Tudor/PagPersBundle/Resources/views/Default/index.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ACiungan/BlogBundle/Resources/doc/index.rst" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Acme/HelloBundle/Resources/doc/index.rst" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Andrei/PersonalPageBundle/Resources/doc/index.rst" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Angelescu/angelescuBundle/Resources/doc/index.rst" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Sonia/PageBundle/Resources/doc/index.rst" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Tudor/PagPersBundle/Resources/doc/index.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ACiungan/BlogBundle/Resources/views/layout.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ACiungan/BlogBundle/Resources/translations/messages.fr.xlf" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Acme/HelloBundle/Resources/translations/messages.fr.xlf" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Andrei/PersonalPageBundle/Resources/translations/messages.fr.xlf" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Angelescu/angelescuBundle/Resources/translations/messages.fr.xlf" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Sonia/PageBundle/Resources/translations/messages.fr.xlf" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Tudor/PagPersBundle/Resources/translations/messages.fr.xlf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ACiungan/BlogBundle/Resources/views/Page/newentry.html.twig" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Andrei/PersonalPageBundle/Resources/views/Main/news.html.twig" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Andrei/PersonalPageBundle/Resources/views/Main/personalPage.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ACiungan/BlogBundle/Resources/config/routing.yml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Acme/HelloBundle/Resources/config/routing.yml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Andrei/PersonalPageBundle/Resources/config/routing.yml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Angelescu/angelescuBundle/Resources/config/routing.yml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Sonia/PageBundle/Resources/config/routing.yml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Tudor/PagPersBundle/Resources/config/routing.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ACiungan/BlogBundle/Resources/config/services.yml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Acme/HelloBundle/Resources/config/services.yml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Andrei/PersonalPageBundle/Resources/config/services.yml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Angelescu/angelescuBundle/Resources/config/services.yml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Sonia/PageBundle/Resources/config/services.yml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Tudor/PagPersBundle/Resources/config/services.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ACiungan/BlogBundle/Resources/views/Blog/show.html.twig" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Andrei/PersonalPageBundle/Resources/public/css/style.css" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Angelescu/angelescuBundle/Resources/public/css/style.css" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Sonia/PageBundle/Resources/public/css/style.css" />
@@ -83,10 +110,11 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AppKernel.php" afterPath="$PROJECT_DIR$/app/AppKernel.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/autoload.php" afterPath="$PROJECT_DIR$/app/autoload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/routing.yml" afterPath="$PROJECT_DIR$/app/config/routing.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/routing_dev.yml" afterPath="$PROJECT_DIR$/app/config/routing_dev.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/screen.css" afterPath="$PROJECT_DIR$/web/css/screen.css" />
     </list>
-    <ignored path="pabd.iws" />
+    <ignored path="pabd2014.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -95,6 +123,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="ComposerSettings">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <pharPath>C:\xampp\htdocs\pabd2014\composer.json</pharPath>
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -103,35 +135,24 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="pabd" />
+    <favorites_list name="pabd2014" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="routing.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Tudor/PagPersBundle/Resources/config/routing.yml">
+      <file leaf-file-name="DefaultController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Daniel/MyPageBundle/Controller/DefaultController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
+            <state line="8" column="32" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="323">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routing.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Andrei/PersonalPageBundle/Resources/config/routing.yml">
+      <file leaf-file-name="index.html.twig" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Daniel/MyPageBundle/Resources/views/Default/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+            <state line="36" column="24" selection-start="1318" selection-end="1318" vertical-scroll-proportion="0.44219652" vertical-offset="459" max-vertical-offset="1275">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommentController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ACiungan/BlogBundle/Controller/CommentController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="22" selection-start="1598" selection-end="1598" vertical-scroll-proportion="-11.192307" vertical-offset="610" max-vertical-offset="1309">
-              <folding>
-                <element signature="e#142#199#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -139,64 +160,25 @@
       <file leaf-file-name="AppKernel.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="56" selection-start="1089" selection-end="1089" vertical-scroll-proportion="-4.576923" vertical-offset="255" max-vertical-offset="782">
+            <state line="16" column="56" selection-start="641" selection-end="641" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="833">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".htaccess" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/.htaccess">
+      <file leaf-file-name="console" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/console">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+            <state line="27" column="0" selection-start="867" selection-end="867" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="561">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".htaccess" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/.htaccess">
+      <file leaf-file-name="routing.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Daniel/MyPageBundle/Resources/config/routing.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="composer.lock" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/composer.lock">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="26928">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Comment.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ACiungan/BlogBundle/Entity/Comment.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="53" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="4063">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ACiungan/BlogBundle/Resources/views/Comment/form.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="37" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="create.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ACiungan/BlogBundle/Resources/views/Comment/create.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="24" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="221">
+            <state line="2" column="27" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="187">
               <folding />
             </state>
           </provider>
@@ -212,63 +194,66 @@
   <component name="FrameworkCommandLineHistory">
     <commandsHistory>
       <command text="c update" />
-      <command text="s generate:bundle --namespace=ACiungan/BlogBundle --format=yml" />
-      <command text="s assets:install web --symlink " />
+      <command text="s generate:bundle --namespace=Daniel/MyPage --format=yml" />
+      <command text="c update " />
       <command text="s assets:install web" />
-      <command text="s doctrine:generate:entities ACiungan" />
-      <command text="s doctrine:database:create" />
-      <command text="s doctrine:schema:create" />
-      <command text="s doctrine:generate:entities ACiungan\BlogBundle" />
-      <command text="s doctrine:schema:update --force " />
-      <command text="s assets:install web/" />
-      <command text="s doctrine:generate:form ACiunganBlogBundle:Comment" />
     </commandsHistory>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/web/css/style.css" />
-        <option value="$PROJECT_DIR$/app/config/routing.yml" />
-        <option value="$PROJECT_DIR$/app/config/routing_dev.yml" />
-        <option value="$PROJECT_DIR$/src/ACiungan/BlogBundle/Resources/views/Page/add.html.twig" />
-        <option value="$PROJECT_DIR$/src/ACiungan/BlogBundle/Resources/views/Page/show.html.twig" />
-        <option value="$PROJECT_DIR$/src/ACiungan/BlogBundle/Controller/PageController.php" />
-        <option value="$PROJECT_DIR$/src/ACiungan/BlogBundle/Resources/views/Page/about.html.twig" />
-        <option value="$PROJECT_DIR$/src/ACiungan/BlogBundle/Resources/views/layout.html.twig" />
-        <option value="$PROJECT_DIR$/web/css/screen.css" />
-        <option value="$PROJECT_DIR$/src/ACiungan/BlogBundle/Resources/views/Page/index.html.twig" />
-        <option value="$PROJECT_DIR$/src/ACiungan/BlogBundle/Resources/views/Page/newentry.html.twig" />
-        <option value="$PROJECT_DIR$/src/ACiungan/BlogBundle/Form/EnquiryType.php" />
-        <option value="$PROJECT_DIR$/src/ACiungan/BlogBundle/Entity/Enquiry.php" />
-        <option value="$PROJECT_DIR$/src/ACiungan/BlogBundle/Entity/Repository/CommentRepository.php" />
-        <option value="$PROJECT_DIR$/src/ACiungan/BlogBundle/Controller/BlogController.php" />
-        <option value="$PROJECT_DIR$/src/ACiungan/BlogBundle/Resources/views/Comment/index.html.twig" />
-        <option value="$PROJECT_DIR$/web/css/blog.css" />
-        <option value="$PROJECT_DIR$/src/ACiungan/BlogBundle/Resources/config/routing.yml" />
-        <option value="$PROJECT_DIR$/src/ACiungan/BlogBundle/Resources/views/Comment/create.html.twig" />
-        <option value="$PROJECT_DIR$/src/ACiungan/BlogBundle/Entity/Blog.php" />
-        <option value="$PROJECT_DIR$/src/ACiungan/BlogBundle/Form/CommentType.php" />
-        <option value="$PROJECT_DIR$/src/ACiungan/BlogBundle/Resources/views/Blog/show.html.twig" />
-        <option value="$PROJECT_DIR$/src/ACiungan/BlogBundle/Entity/Comment.php" />
-        <option value="$PROJECT_DIR$/src/ACiungan/BlogBundle/Resources/views/Comment/form.html.twig" />
-        <option value="$PROJECT_DIR$/src/ACiungan/BlogBundle/Controller/CommentController.php" />
+        <option value="$PROJECT_DIR$/src/Daniel/MyPageBundle/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/src/Daniel/MyPageBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/Daniel/MyPageBundle/Resources/views/Default/index.html.twig" />
         <option value="$PROJECT_DIR$/app/AppKernel.php" />
-        <option value="$PROJECT_DIR$/web/.htaccess" />
-        <option value="$PROJECT_DIR$/composer.lock" />
       </list>
     </option>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="754" />
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/kriswallsmith/assetic" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/twig/extensions" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/symfony/symfony" />
+      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/assetic-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/icu" />
+      <path value="$PROJECT_DIR$/vendor/incenteev/composer-parameter-handler" />
+      <path value="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sensio/generator-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sensio/distribution-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/jdorn/sql-formatter" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+    </include_path>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectFrameBounds">
+    <option name="x" value="10" />
+    <option name="y" value="5" />
+    <option name="width" value="1346" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -294,32 +279,31 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pabd" />
+              <option name="myItemId" value="pabd2014" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pabd" />
+              <option name="myItemId" value="pabd2014" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pabd" />
+              <option name="myItemId" value="pabd2014" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pabd" />
+              <option name="myItemId" value="pabd2014" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pabd" />
+              <option name="myItemId" value="pabd2014" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -329,11 +313,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pabd" />
+              <option name="myItemId" value="pabd2014" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pabd" />
+              <option name="myItemId" value="pabd2014" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -341,35 +325,17 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pabd" />
+              <option name="myItemId" value="pabd2014" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pabd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bundles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pabd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pabd" />
+              <option name="myItemId" value="pabd2014" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -379,11 +345,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pabd" />
+              <option name="myItemId" value="pabd2014" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pabd" />
+              <option name="myItemId" value="pabd2014" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -391,21 +357,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Tudor" />
+              <option name="myItemId" value="Daniel" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PagPersBundle" />
+              <option name="myItemId" value="MyPageBundle" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pabd" />
+              <option name="myItemId" value="pabd2014" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pabd" />
+              <option name="myItemId" value="pabd2014" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -413,251 +379,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Tudor" />
+              <option name="myItemId" value="Daniel" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PagPersBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pabd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pabd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tudor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PagPersBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pabd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pabd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Angelescu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angelescuBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pabd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pabd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Andrei" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PersonalPageBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pabd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pabd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Andrei" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PersonalPageBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pabd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pabd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Andrei" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PersonalPageBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pabd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pabd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ACiungan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BlogBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pabd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pabd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ACiungan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BlogBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pabd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pabd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ACiungan" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BlogBundle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pabd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pabd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pabd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pabd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="MyPageBundle" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -668,77 +394,188 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pabd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pabd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="logs" />
+              <option name="myItemId" value="Default" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pabd" />
+              <option name="myItemId" value="pabd2014" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pabd" />
+              <option name="myItemId" value="pabd2014" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Daniel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyPageBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pabd2014" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pabd2014" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Daniel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyPageBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pabd2014" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pabd2014" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Daniel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyPageBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pabd2014" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pabd2014" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Daniel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyPageBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pabd2014" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pabd2014" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Daniel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyPageBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pabd2014" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pabd2014" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cache" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="129" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="158" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="160" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="834" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="152" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="151" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="152" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="826" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
-    <property name="options.lastSelected" value="reference.webide.settings.project.settings.php.zend.framework.tool" />
+    <property name="last_opened_file_path" value="C:/Program Files (x86)/Git/bin/git.exe" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="web-ide.project.structure" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Development\Web\pabd\src\ACiungan\BlogBundle\Resources\views\Page" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Development\Web\pabd\src\ACiungan\BlogBundle\Resources\views\Blog" />
+      <recent name="C:\xampp\htdocs\pabd2014\web" />
     </key>
   </component>
   <component name="RunManager">
@@ -758,62 +595,48 @@
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
-    <option name="USER" value="" />
-    <option name="PASSWORD" value="" />
-    <option name="mySSHConnectionTimeout" value="30000" />
-    <option name="mySSHReadTimeout" value="30000" />
-    <option name="LAST_MERGED_REVISION" />
-    <option name="MERGE_DRY_RUN" value="false" />
-    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
-    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
-    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
-    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
-    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
-    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
-    <option name="FORCE_UPDATE" value="false" />
-    <option name="IGNORE_EXTERNALS" value="false" />
-    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ed527675-ea90-433d-9f49-afcc9816528e" name="Default" comment="" />
-      <created>1400967167515</created>
-      <updated>1400967167515</updated>
+      <changelist id="aec2e626-61f9-4554-9e65-7b8906f1fd69" name="Default" comment="" />
+      <created>1396028679631</created>
+      <updated>1396028679631</updated>
     </task>
-    <task id="LOCAL-00001" summary="blog">
-      <created>1401138472403</created>
-      <updated>1401138472403</updated>
+    <task id="LOCAL-00001" summary="My First Commit">
+      <created>1396036355549</created>
+      <updated>1396036355549</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="My Profile Page">
+      <created>1396036586714</created>
+      <updated>1396036586714</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="10" y="5" width="1346" height="728" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32885906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32996634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25377643" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962406" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3238255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34343433" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -829,334 +652,228 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="blog" />
-    <MESSAGE value="Andrei Ciungan&#10;" />
-    <MESSAGE value="Blog ACiungan" />
-    <MESSAGE value="Merge branch 'development' of https://github.com/UAB2014/pabd2014&#10;&#10;Conflicts:&#10;&#9;app/AppKernel.php&#10;&#9;app/config/routing.yml&#10;&#9;composer.lock&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'development' of https://github.com/UAB2014/pabd2014&#10;&#10;Conflicts:&#10;&#9;app/AppKernel.php&#10;&#9;app/config/routing.yml&#10;&#9;composer.lock&#10;" />
+    <MESSAGE value="My First Commit" />
+    <MESSAGE value="My Profile Page" />
+    <MESSAGE value="my first commit Bota Daniel" />
+    <option name="LAST_COMMIT_MESSAGE" value="my first commit Bota Daniel" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ACiungan/BlogBundle/Resources/views/Blog/show.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/Daniel/MyPageBundle/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="96" selection-start="774" selection-end="774" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+        <state line="8" column="32" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ACiungan/BlogBundle/Entity/Blog.php">
+    <entry file="file://$PROJECT_DIR$/src/Daniel/MyPageBundle/Resources/views/Default/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="277" column="5" selection-start="4796" selection-end="4796" vertical-scroll-proportion="0.0" vertical-offset="4709" max-vertical-offset="4845">
+        <state line="27" column="14" selection-start="1033" selection-end="1033" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1275">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ACiungan/BlogBundle/Resources/views/Comment/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="12" selection-start="492" selection-end="492" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/blog.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="53" selection-start="1621" selection-end="1621" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="527">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ACiungan/BlogBundle/Form/CommentType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="28" selection-start="487" selection-end="487" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="782">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ACiungan/BlogBundle/Resources/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="19" selection-start="789" selection-end="789" vertical-scroll-proportion="0.0" vertical-offset="259" max-vertical-offset="612">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ACiungan/BlogBundle/Controller/CommentController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="38" selection-start="1132" selection-end="1132" vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="1309">
-          <folding>
-            <element signature="e#142#199#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ACiungan/BlogBundle/Entity/Comment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="53" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="4063">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ACiungan/BlogBundle/Resources/views/Comment/form.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="37" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ACiungan/BlogBundle/Resources/views/Comment/create.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="24" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="221">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1275" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml.dist">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/Functional/Bundle/TestBundle/Resources/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="7" selection-start="7" selection-end="7" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="98" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="353">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/routing_dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="25" selection-start="369" selection-end="369" vertical-scroll-proportion="0.62606233" vertical-offset="0" max-vertical-offset="353" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Validator/Constraints/Length.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="14" selection-start="1343" selection-end="1343" vertical-scroll-proportion="-6.5384617" vertical-offset="357" max-vertical-offset="799">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/Form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="731" column="20" selection-start="23686" selection-end="23686" vertical-scroll-proportion="-1.2643312" vertical-offset="12552" max-vertical-offset="18700">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ACiungan/BlogBundle/ACiunganBlogBundle.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="353">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ACiungan/BlogBundle/Resources/views/Page/about.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="95" selection-start="268" selection-end="268" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="289" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ACiungan/BlogBundle/Resources/views/layout.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="14" selection-start="1663" selection-end="1663" vertical-scroll-proportion="-6.5384617" vertical-offset="510" max-vertical-offset="1020">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/screen.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="61" selection-start="1752" selection-end="1752" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="561">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ACiungan/BlogBundle/Resources/views/Page/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="79" selection-start="788" selection-end="788" vertical-scroll-proportion="-9.961538" vertical-offset="30" max-vertical-offset="510" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ACiungan/BlogBundle/Form/EnquiryType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="42" selection-start="333" selection-end="333" vertical-scroll-proportion="-3.9230769" vertical-offset="102" max-vertical-offset="459">
-          <folding>
-            <element signature="e#44#84#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ACiungan/BlogBundle/Resources/views/Page/newentry.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="44" selection-start="535" selection-end="535" vertical-scroll-proportion="-7.8461537" vertical-offset="102" max-vertical-offset="442" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ACiungan/BlogBundle/Controller/PageController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="28" selection-start="612" selection-end="612" vertical-scroll-proportion="14.884615" vertical-offset="795" max-vertical-offset="1309">
-          <folding>
-            <element signature="e#6#96#0" expanded="false" />
-            <element signature="e#141#198#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ACiungan/BlogBundle/Entity/Enquiry.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="54" selection-start="261" selection-end="261" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="1139">
-          <folding>
-            <element signature="e#46#100#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ACiungan/BlogBundle/Entity/Repository/BlogRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ACiungan/BlogBundle/Entity/Repository/CommentRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="5" selection-start="758" selection-end="758" vertical-scroll-proportion="-11.269231" vertical-offset="183" max-vertical-offset="612">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ACiungan/BlogBundle/Controller/BlogController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="11" selection-start="850" selection-end="850" vertical-scroll-proportion="-7.3461537" vertical-offset="285" max-vertical-offset="612">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ACiungan/BlogBundle/Resources/views/Comment/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="12" selection-start="492" selection-end="492" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/blog.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="53" selection-start="1621" selection-end="1621" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="527">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ACiungan/BlogBundle/Resources/views/Comment/create.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="24" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="221">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ACiungan/BlogBundle/Entity/Blog.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="277" column="5" selection-start="4796" selection-end="4796" vertical-scroll-proportion="0.0" vertical-offset="4709" max-vertical-offset="4845">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ACiungan/BlogBundle/Form/CommentType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="28" selection-start="487" selection-end="487" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="782">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ACiungan/BlogBundle/Resources/views/Blog/show.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="96" selection-start="774" selection-end="774" vertical-scroll-proportion="0.0" vertical-offset="146" max-vertical-offset="476">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ACiungan/BlogBundle/Entity/Comment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="53" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="4063">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ACiungan/BlogBundle/Resources/views/Comment/form.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="37" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="317">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ACiungan/BlogBundle/Controller/CommentController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="22" selection-start="1598" selection-end="1598" vertical-scroll-proportion="-11.192307" vertical-offset="610" max-vertical-offset="1309">
-          <folding>
-            <element signature="e#142#199#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="56" selection-start="1089" selection-end="1089" vertical-scroll-proportion="-4.576923" vertical-offset="255" max-vertical-offset="782">
+        <state line="17" column="80" selection-start="730" selection-end="730" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="731">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ACiungan/BlogBundle/Resources/config/routing.yml">
+    <entry file="file://$PROJECT_DIR$/app/console">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="15" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+        <state line="27" column="0" selection-start="867" selection-end="867" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="561">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tudor/PagPersBundle/Resources/config/routing.yml">
+    <entry file="file://$PROJECT_DIR$/src/Daniel/MyPageBundle/Resources/config/routing.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="549">
+        <state line="2" column="27" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="187">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Andrei/PersonalPageBundle/Resources/config/routing.yml">
+    <entry file="file://$PROJECT_DIR$/src/Daniel/MyPageBundle/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="549">
+        <state line="8" column="32" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/.htaccess">
+    <entry file="file://$PROJECT_DIR$/src/Daniel/MyPageBundle/Resources/views/Default/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="549">
+        <state line="20" column="25" selection-start="841" selection-end="841" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1275">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/.htaccess">
+    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="549">
+        <state line="17" column="80" selection-start="730" selection-end="730" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="731">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.lock">
+    <entry file="file://$PROJECT_DIR$/app/console">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="26928">
+        <state line="27" column="0" selection-start="867" selection-end="867" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="561">
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Daniel/MyPageBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="27" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="187">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Daniel/MyPageBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="32" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Daniel/MyPageBundle/Resources/views/Default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="25" selection-start="968" selection-end="968" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1275">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="80" selection-start="730" selection-end="730" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="731">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/console">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="867" selection-end="867" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Daniel/MyPageBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="27" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="187">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Daniel/MyPageBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="32" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Daniel/MyPageBundle/Resources/views/Default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="24" selection-start="815" selection-end="815" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="1275">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="80" selection-start="730" selection-end="730" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="731">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/console">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="867" selection-end="867" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="527">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Daniel/MyPageBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="27" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="187">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Daniel/MyPageBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="32" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Daniel/MyPageBundle/Resources/views/Default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="24" selection-start="815" selection-end="815" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1275">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="80" selection-start="730" selection-end="730" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="731">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/console">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="867" selection-end="867" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="527">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Daniel/MyPageBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Daniel/MyPageBundle/DanielMyPageBundle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="38" selection-end="38" vertical-scroll-proportion="0.1401099" vertical-offset="0" max-vertical-offset="364" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Daniel/MyPageBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="32" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/console">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="867" selection-end="867" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Daniel/MyPageBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="27" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="56" selection-start="641" selection-end="641" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="833">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Daniel/MyPageBundle/Resources/views/Default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="24" selection-start="1318" selection-end="1318" vertical-scroll-proportion="0.44219652" vertical-offset="459" max-vertical-offset="1275">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

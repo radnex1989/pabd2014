@@ -16,6 +16,15 @@ body { line-height: 1;font-family: Arial, Helvetica, sans-serif;font-size: 12px;
 #header h2 a { color: #000; }
 #header h3 { text-align: center; font-family: 'La Belle Aurore', cursive; font-size: 24px; margin-bottom: 20px; font-weight: normal; }
 
+<<<<<<< HEAD
+.main-col { width: 700px; display: inline-block; float: left; border-right: 1px solid #ccc; padding: 20px; margin-bottom: 20px; }
+.sidebar { width: 239px; padding: 10px; display: inline-block; }
+
+.main-col a { color: #F48A00; }
+.main-col h1,
+.main-col h2
+    { line-height: 1.2em; font-size: 32px; margin-bottom: 10px; font-weight: normal; color: #F48A00; }
+=======
 .main-col { width: 100%; display: inline-block; float: left; padding: 20px; margin-bottom: 20px; }
 .sidebar { width: 239px; padding: 10px; display: inline-block; }
 
@@ -23,6 +32,7 @@ body { line-height: 1;font-family: Arial, Helvetica, sans-serif;font-size: 12px;
 .main-col h1,
 .main-col h2
 { line-height: 1.2em; font-size: 32px; margin-bottom: 10px; font-weight: normal; color: #457df4; }
+>>>>>>> bf1cc1924f4c672d356095e79964ff5410d1bfd6
 .main-col p { line-height: 1.5em; margin-bottom: 20px; }
 
 #footer { border-top: 1px solid #ccc; clear: both; text-align: center; padding: 10px; color: #aaa; }

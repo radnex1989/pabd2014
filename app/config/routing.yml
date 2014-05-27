@@ -1,3 +1,7 @@
+ampoitan_nicu:
+    resource: "@AmpoitanNicuBundle/Resources/config/routing.yml"
+    prefix:   /
+
 andrei_personal_page:
     resource: "@AndreiPersonalPageBundle/Resources/config/routing.yml"
     prefix:   /
@@ -19,5 +23,9 @@ tudor_pag_pers:
     prefix:   /
 a_ciungan_blog:
     resource: "@ACiunganBlogBundle/Resources/config/routing.yml"
+    prefix:   /
+
+daniel_my_page:
+    resource: "@DanielMyPageBundle/Resources/config/routing.yml"
     prefix:   /
 

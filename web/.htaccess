@@ -11,7 +11,6 @@ DirectoryIndex app_dev.php
 
 <IfModule mod_rewrite.c>
     RewriteEngine On
-    
     # Rewrite all other queries to the front controller.
 <<<<<<< HEAD
     RewriteRule .? %{ENV:BASE}/app_dev.php [L]

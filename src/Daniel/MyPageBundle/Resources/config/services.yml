@@ -1,0 +1,7 @@
+parameters:
+#    daniel_my_page.example.class: Daniel\MyPageBundle\Example
+
+services:
+#    daniel_my_page.example:
+#        class: %daniel_my_page.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

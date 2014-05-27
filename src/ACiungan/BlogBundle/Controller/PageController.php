@@ -51,8 +51,8 @@ class PageController extends Controller {
                 $blog->setTitle($title);
                 $body = $form->get('body')->getData();
                 $blog->setBlog($body);
-                $image = $form->get('image')->getData();
-                $blog->setImage($image);
+                /*$image = $form->get('image')->getData();
+                $blog->setImage($image);*/
                 $author = $form->get('author')->getData();
                 $blog->setAuthor($author);
                 $tags = $form->get('tags')->getData();
